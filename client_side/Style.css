@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif
+}
+
+nav {
+  height: 2.5rem;
+  width: 100%;
+  background-color: #000
+}
+
+nav h2 {
+  color: white;
+
+  padding-left: 1.5rem;
+  padding-top: 0.3rem;
+}
+
+.main_sect {
+  width: 100%;
+
+  margin-top: 1rem;
+  display: grid;
+  justify-items: center;
+}
+
+.mid {
+  width: 75%;
+  text-align: center;
+
+  font-size: 1rem;
+
+  margin-top: 1rem;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+.form_inpt {
+  width: 24rem;
+  height: 1.5rem;
+  border-color: black;
+  outline-color: rgb(255, 45, 45);
+  outline-width: 2px;
+}
+
+.form_btn {
+  height: 1.8rem;
+  width: 5rem;
+
+  color: white;
+
+  border-radius: 0.5rem;
+  background: #000;
+  border-color: white;
+}
+
+.form_btn:active {
+  background: rgb(255, 45, 45);
+}
+
+table {
+  border-color: #000;
+}
+
+.student_info {
+  width: 30rem;
+  height: 14rem;
+  display: flex;
+
+
+  background-color: rgb(165, 176, 231);
+
+  border-radius: 1rem;
+
+  margin-top: 2rem;
+
+}
+
+.left_info {
+  width: 35%;
+  height: 100%;
+
+}
+
+.left_info p {
+  margin-left: 1rem;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.right_info {
+  width: 65%;
+  height: 100%;
+}
+
+.right_info P:first-child {
+  margin-top: 2rem;
+}
+
+.right_info p {
+  margin-bottom: 1rem;
+}
+
+.dp_info {
+  width: 6rem;
+  height: 6.5rem;
+
+  margin-top: 1.1rem;
+  margin-left: 1rem;
+
+  border-radius: 1rem;
+}
