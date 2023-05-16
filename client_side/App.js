@@ -124,3 +124,17 @@ let fetchAllStudents = () => {
 // });
 
 //completed
+
+//open modal
+let modalopen = document
+  .querySelector(".add_btn")
+  .addEventListener("click", () => {
+    document.querySelector(".modal").style.display = "block";
+  });
+
+//close modal
+window.onclick = (event) => {
+  if (event.target == "modal") {
+    document.querySelector(".modal").style.display = "none";
+  }
+};
